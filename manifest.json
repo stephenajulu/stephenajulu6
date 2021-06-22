@@ -662,18 +662,36 @@
          "src":"meta/windows/windowsphone-storelogo-50-50.png",
          "type":"image/png",
          "sizes":"50x50"
+      },
+	  {
+         "src":"meta/maskable_icon_x1.png",
+         "sizes":"640x640",
+         "type":"image/png",
+         "purpose":"any maskable"
       }
    ],
-   "name":"Stephen Ajulu's Personal Portfolio Website",
+   "name":"Stephen Ajulu",
    "short_name":"Stephen Ajulu",
    "lang":"en-US",
    "dir":"auto",
-   "theme_color":"#41228e",
+   "theme_color":"#000000",
    "background_color":"#000000",
-   "description":"Hi there! 👋, I'm Stephen Ajulu, an I.T Consultant, Web Developer, Graphic Designer, Content Creator, Creative, & a small business cyber security strategist based in Nairobi, Kenya",
+   "description":"Hi there! 👋, I'm Stephen Ajulu, an I.T Consultant, Ethical Hacker, Web Developer, Designer, Content Creator, Creative, & a small business cyber security strategist based in Nairobi, Kenya",
    "categories":[
       "personal website",
       "portfolio",
       "blog"
-   ]
+   ],
+   "shortcuts": [
+		{
+			"name": "Latest Articles",
+			"url": "https://ajulusthoughts.stephenajulu.com",
+			"description": "Check Out My Latest Articles"
+		},
+		{
+			"name": "Learn More",
+			"url": "/",
+			"description": "Learn More About Ajulu's Thoughts and it's author Stephen Ajulu"
+		}
+	]
 }
